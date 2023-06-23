@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <style>
+         
+        *{
+            box-sizing: border-box;
+
+        }
+
+        body{
+            font-family: 'Itim', cursive;
+
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid rgb(28, 29, 31) ;
+            margin: 40px auto;/* margin :    Y axis (top and bottom)    X axis( right and left */
+            background-color: burlywood;
+
+
+        }
+
+        .item{
+            border: 3px solid rgb(9, 21, 54) ;
+
+            margin: 12px 3px;
+            padding:12px 3px ;
+            background:rgb(233, 227, 227);
+
+        }
+
+        #fruit{
+            float: left; /* floats on left side */
+            width: 48%;
+
+        }
+
+        #computer{
+            float: right;
+           width: 48%;
+
+        }
+
+        #staple{
+            /* float: left; */
+            /* clear: left; */
+            clear: both;
+            width: 100%;
+
+        }
+        p,h3{
+            /* text-align: left;
+            text-align: right; */
+            /* text-align: center;  */
+            text-align: justify;
+        }
+        h1{
+            /* margin always with width:  */
+            margin: auto;
+            width: 380px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my shop</h1>
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fruitpara" class="classpara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos blanditiis exercitationem? Temporibus delectus ipsam quo possimus, corrupti asperiores, tempore ullam facilis, tenetur reiciendis id sapiente mollitia sed similique!\Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis nam quidem magnam ab tempora? Excepturi neque impedit laudantium alias ut dolor cumque, voluptatibus, deserunt magni amet ipsam labore nemo? Inventore repellat iste fugiat quia!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="classpara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos blanditiis exercitationem? Temporibus delectus ipsam quo possimus, corrupti asperiores, tempore ullam facilis, tenetur reiciendis id sapiente mollitia sed similique!\Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit, pariatur ab molestias obcaecati praesentium consequatur id! Sed eius ipsam vitae aliquid excepturi cumque reprehenderit quas eaque, omnis quae amet soluta? Voluptate, numquam alias.
+            </p>
+        </div>
+        <div id="staple" class="item">
+            <h3>Staple</h3>
+            <p id="staplepara" class="classpara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos blanditiis exercitationem? Temporibus delectus ipsam quo possimus, corrupti asperiores, tempore ullam facilis, tenetur reiciendis id sapiente mollitia sed similique!\
+            </p>
+        </div>
+        <div id="glass" class="item">
+            <h3>Glass</h3>
+            <p id="glassepara" class="classpara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur eos blanditiis exercitationem? Temporibus delectus ipsam quo possimus, corrupti asperiores, tempore ullam facilis, tenetur reiciendis id sapiente mollitia sed similique!\
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

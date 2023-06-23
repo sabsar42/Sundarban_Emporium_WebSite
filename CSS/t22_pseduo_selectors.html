@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo selctors and mors e designing</title>
+      <!-- a:somtheing{} -- Pseduo selectors  -->
+    <style>
+        .container{
+            border-radius: 10px;
+            border-style: solid;
+            border-color: rgb(70, 13, 36);
+            background-color: rgb(235, 213, 213);
+            padding: 34px 20px;
+            margin:40px auto;
+            width: 666px;
+
+           
+        }
+        a:visited{
+            color: purple;
+        }
+        a:active{
+            background-color: royalblue;
+        }
+        a{
+            text-decoration: none; /* removes the underline from text */
+            color: rgb(0, 0, 0);
+        }
+         a:hover{
+             color: darkred; /* hoverinng cursor over this will change its color to the color assigned */
+             background-color: darksalmon;  /* hoverinng cursor over this will change its backgrouncolor to the color assigned */
+         
+         
+         }
+        .btn{
+            background-color: darkgray;
+            border:none;
+            padding: 12px;
+            cursor: pointer; /* makes cursor to a pointer */
+            font-size: 12px;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            color:red;
+            background-color: royalblue;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h2>This is heading</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quod sint perferendis enim cum praesentium aliquid! Unde nisi id atque inventore ducimus nesciunt, facere nemo laboriosam enim nihil numquam accusamus nulla odio, quas esse?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam sint iure expedita? Ab optio laborum dolor magnam quo! Accusantium, ad?</p>
+        <a href="https://fonts.google.com/" class="btn">Read more</a>
+        <button class="btn">Contact Now</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=ed ge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiibility and Z index</title>
+    <style>
+        .box{
+            width: 100px;
+            height:100px;
+            border: 2px solid black;
+        }
+        #box1{ 
+            
+            position: relative;
+            top: 34px; 
+            z-index: 12;
+
+            /* in z-index: whic elements z index is bigger will come in front; */
+            
+            
+            background-color: blue;}
+        #box2{
+            
+            position: relative;
+            top: 14px; 
+            z-index: 11;
+            /* z-index: -1; it will go in the back  */
+             
+
+
+            /*IMPORTANT   +++++++++ */
+            /* z-index: will work on positin- relative,absolute,fixed or sticky; */
+            /* visibility: visible; default value of visibility */
+            /* visibility: hidden;   will hide the element but you can see the blank space */
+
+            /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+             /* display: none;  it completlety removes the element and space and everything the box */
+            background-color: rgb(104, 214, 15);}
+        #box3{ background-color: rgb(207, 68, 4);}
+        #box4{ background-color: rgb(206, 23, 23);}
+    </style>
+
+
+</head>
+<body>
+    <!-- div.box#box$*4 -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

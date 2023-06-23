@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar{
+            background-color: rgb(121, 24, 75);
+            border-radius: 20px;
+        }
+        .navbar li{
+            float:left;     /* to flota evrything on the left */
+            /* when we use float it over flows from its parent , thast why bgcolor doesnt display
+             */
+
+            list-style: none; /* to remove bulltes */
+            margin: 15px 20px ;
+            padding-top: 9px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a {
+            padding: 3px 2px;
+            text-decoration: none;
+            color: rgb(253, 253, 230);
+             
+        }
+
+        .search{
+            color: rgb(253, 253, 230) ;
+            float: right;
+            padding: 20px 50px;
+        }
+        .navbar input {
+            border: 1px sloid rgb(59, 17, 17);
+            border-radius: 11px;
+            padding: 6px 8px ;
+            width: 130px;
+           
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header><nav class="navbar">
+<ul>
+    <li><a href="#" > Home </a></li>
+    <li><a href="#" >  About </a></li>
+    <li><a href="#" > Services  </a></li>
+    <li><a href="#" > Contact Now  </a></li>
+
+    <div class="search">
+        <input type="text" name="search"  id="search" placeholder="Serach thi site"> 
+
+
+    </div>
+</ul>
+    </nav>
+    </header>
+    
+</body>
+</html>

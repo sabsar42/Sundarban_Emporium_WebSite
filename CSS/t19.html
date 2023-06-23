@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height , width , borders and background </title>
+    <style>
+        #firstp{
+            background-color: red;
+            height: 100px;
+            width: 450px;
+            
+            border: 9px solid royalblue ;
+
+            /* can write all these in one line like above // no comma needed */
+
+            /* border-width: 9px;
+            border-style: solid; /* visible stroke*/
+            /* border-color: royalblue;
+            border-radius: 10px;  /* for border curve */
+        }
+        
+        /* without border-width and border-style border won't be displayed */
+        #sectp{
+            background-color: blue;
+            height: 100px;
+            width: 450px;
+
+            border-top: 7px solid crimson;
+            border-right:7px solid darkgreen;
+            border-left:   7px solid darkseagreen;
+            border-bottom: 7px solid violet;
+
+            border-top-left-radius: 10px ; /* for top border left curve */
+            border-top-right-radius: 14px ; /* for left border curve */
+            border-bottom-left-radius: 20px ; /* for left border curve */
+            border-bottom-right-radius: 30sssspx ; /* for left border curve */
+
+
+        }
+
+
+        #thirdp{
+            height: 100px;
+            width: 350px;
+            border: 9px solid red ;
+            background-image: url('https://source.unsplash.com/1600x900/?wood');
+            background-repeat: no-repeat; /* repeat-x and repeat-y will repeat imag in x and y axis*/
+            /* background-repeat: repeat-x; repeat-x and repeat-y will repeat imag in x and y axis */
+            /* background-repeat: repeat-y; repeat-x and repeat-y will repeat imag in x and y axis */
+
+            /* Thats how you can postion image  */
+
+            
+            /* background-position: center top;
+            background-position: center center;
+            background-position: 122px top; */
+            background-position: 122px 50px;
+}
+
+</style>
+</head>
+<body>
+    
+</body>
+
+
+<h2>This is head</h2>
+<p id="firstp">This is me</p>
+
+<h2>This is head</h2>
+<p id="sectp">This is me</p>
+
+<h2>This is head</h2>
+<p id="thirdp">This is me</p>
+</html>

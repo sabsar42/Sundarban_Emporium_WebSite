@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model
+    
+    </title>
+    <style>
+
+        /* ( * ) is an unuversal selector for all elements */
+
+        *{
+            box-sizing: border-box;
+            height: 0px;
+            width: 0px ;
+
+            /* heighht width will be like this as long as i dont overwrite this in next coloumn ...sAnd as i did it chnaged */
+        }
+        .container{
+            background-color: cornflowerblue;
+            border : 2px solid rgb(8, 42, 56);
+
+            /* We can set padding like this in multilple line */
+            /* padding-top: 30px;
+            padding-right:40;
+            padding-bottom: 44px;
+            padding-left:55px; */
+            
+
+            /* Or we can in thiss in one line */
+           /* /* padding : 22px 40px 50px 49px ;  padding : top right bottom left ( trbl )  */
+           padding: 30px 29px ;/* padding : Y axis (top and bottom)    X axis( right and left )*/
+
+           /* all the same above goes for margin also */
+
+            /* margin-top: 30px;
+            margin-right:40;
+            margin-bottom: 44px;
+            margin-left:55px; */
+
+             /* Or we can in thiss in one line */
+
+           /*  margin : 22px 40px 50px 49px ;  margin : top right bottom left ( trbl )  */
+           margin: 40px 80px; /* margin :    Y axis (top and bottom)    X axis( right and left )*/
+
+          
+
+            border-radius: 20px;
+            width:633px;
+            /* using box-sizing where changing padding in inspect wont vhange height and width rather it will adjust */
+            box-sizing: border-box;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is Heading</h2>
+        <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor possimus praesentium asperiores. Inventore nesciunt eius aliquid natus facilis vitae quisquam neque quas? Accusamus consequatur alias, unde iste perferendis exercitationem eius fuga aut. Quidem dolore ut libero modi fuga cupiditate.</p>
+    </div>
+    
+    <div class="container">
+        <h2>This is Heading</h2>
+        <p id="secp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor possimus praesentium asperiores. Inventore nesciunt eius aliquid natus facilis vitae quisquam neque quas? Accusamus consequatur alias, unde iste perferendis exercitationem eius fuga aut. Quidem dolore ut libero modi fuga cupiditate.</p>
+    </div>
+    
+    <div class="container">
+        <h2>This is Heading</h2>
+        <p id="thirdp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor possimus praesentium asperiores. Inventore nesciunt eius aliquid natus facilis vitae quisquam neque quas? Accusamus consequatur alias, unde iste perferendis exercitationem eius fuga aut. Quidem dolore ut libero modi fuga cupiditate.</p>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

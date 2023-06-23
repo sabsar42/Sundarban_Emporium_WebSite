@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid blue;
+            background-color: cornsilk;
+            height: 1500px;
+        }
+        
+        
+        
+        /* there are 5 types o f position
+        position = static(by default), absolute , relative , fixed , sticky  */
+        .box{
+            display: inline-block; /* makes all the block take as much space as required */
+            border: 2px solid red;
+            width: 150px;
+            margin: 2px;
+            height: 150px;
+        }
+        #box3{
+            /* relative = Positions the element relative to its normal position ,will leave a gap in its normal position
+            meaning you can move it all direction with a gap in its normal position */
+            /* position: relative;
+            top: 34px;
+            left: 34px; */
+        
+             /* absolute =  Positions the element realtive to its first parent position ,with no gap.
+            meaning you can move it all direction within a container or box with no gap */
+            /* position: absolute; */
+            /* top: 34px;
+            left: 34px; */
+
+            /* Static = static is the normal positio set by default  */
+            /* position: static;
+            /* top: 34px;
+            left: 34px; */
+            
+
+            /* fixed = Positions the element relative to the browser window
+            /* position: fixed -- where the position is permanently fixed in one direction i have instructed to */
+            /* usefull for -- making chat bots */
+            position: fixed;
+            right: 4px;
+            bottom: 12px;
+
+
+            /* position= sticky -- sticks the element to window so that it always be infront of me 
+            if u scroll it will still sticks to the window */
+            /* usefull for -- making Menus */
+            position: sticky;
+            top: 4px; 
+           
+
+
+
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">CHAT WITH US HERE</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    </body>
+</html>

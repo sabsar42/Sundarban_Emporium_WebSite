@@ -1,0 +1,215 @@
+<!-- 35 :39 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHAKIB ABSAR</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*CSS reset*/
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/kk.jpg');
+            height: auto;
+            
+            width: auto;
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        
+/*         
+     .i1{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+    }  */
+
+
+    .left {
+
+        position: absolute;
+        left: 4px;
+        top: 20px;
+        display: inline-block;
+        color: white;
+        /* border: 1px solid red; */
+
+    }
+
+    .left img {
+        width: 110px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        color: white;
+        /* border: 2px solid rgb(117, 117, 182); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 24px;
+        top: 20px;
+        display: inline-block;
+        color: white;
+        /* border: 2px solid rgb(15, 172, 15); */
+
+    }
+
+  
+
+    .navbar li {
+        display: inline-block;
+        font-size: 19px;
+
+
+
+    }
+
+    .navbar li a {
+
+        color: ivory;
+        text-decoration: none;
+        /* to remove underline */
+        padding: 20px 12px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        color: rgb(200, 200, 79);
+        text-decoration: underline;
+
+
+    }
+
+    .btn {
+
+        margin: 0px 0px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: rgb(37, 33, 33);
+    }
+
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+
+    }
+
+    .form-group input {
+
+        border: 2px solid greenyellow;
+        border-radius: 12px;
+        text-align: center;
+        display: block;
+        width: 308px;
+        padding: 6px;
+        margin: 11px auto;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+
+
+
+    }
+
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+
+        width: 308px;
+        padding: 8px;
+        margin: 20px auto;
+
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="left">
+            <!-- left for logo -->
+            <!-- <img src="img/selogo.jpg" alt=""> -->
+            <div>Sundarban Emporium</div>
+        </div>
+        <div class="mid">
+            <!-- mid for navbar -->
+            <ul class="navbar">
+                <li><a href="#" class="active
+         ">Home</a></li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Contact for Order</h1>
+        <form action="n.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Order">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
